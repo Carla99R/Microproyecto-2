@@ -1,0 +1,67 @@
+
+.pre-session{
+  display: flex;
+  justify-content: space-between;
+  width: 80em;
+}
+
+#carta{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.search{
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 35px;
+  padding-top: 50px;
+}
+
+.fondo{
+  background-image:url('../../../assets/images/rick_and_morty-2-660x330.jpg');
+}
+
+.heart{
+  flex: 0.5;
+  cursor: pointer;
+}
+
+.heartfv{
+  color: red;
+  cursor: pointer;
+}
+
+.miniNav{
+  display: flex;
+  justify-content: space-between;
+}
+
+#bodyCart{
+  display: flex;
+  flex-direction: column;
+}
+
+#bodyCart h5{
+  flex: 1;
+}
+
+#image{
+  flex: 2;
+  height: 90%;
+}
+
+.link{
+  display: flex;
+  justify-self: flex-start;
+  flex: 2;
+}
+
+.personaje{
+  display: flex;
+  flex: 1;
+}
+
+.info{
+  cursor: pointer;
+}

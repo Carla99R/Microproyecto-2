@@ -1,0 +1,25 @@
+<app-navigation-bar><span class="title">style=""</span></app-navigation-bar>
+
+<body>
+<div class="d-flex justify-content-center fondo">
+  <table class="table">
+    <thead class="thead-dark">
+    <tr>
+      <th scope="col">Personaje</th>
+      <th scope="col">Imagen</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr  *ngFor="let g of character">
+        <th scope="row">{{g.name}}</th>
+      <td class="eliminar"><img src="{{g.image}}">
+        <span class="material-icons" (click)="deleteFavorites(g.id)">delete</span>
+      </td>
+      
+
+    </tr>
+    </tbody>
+  </table>
+  </div>
+</body>
+

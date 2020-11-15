@@ -1,0 +1,98 @@
+@font-face {
+  font-family: 'waca';
+  src: url("../../../assets/fonts/get-schwifty/get_schwifty.ttf");
+}
+
+
+.title{
+  display: flex;
+  flex: 2.5;
+  justify-content: center;
+}
+
+.icon{
+  display: flex;
+  flex: 0.5;
+  justify-content: center;
+  font-size: 10px;
+}
+
+.icon_user{
+  display: flex;
+  font-size: 10px;
+}
+
+.icon p{
+  display: flex;
+  justify-content: flex-start;
+  flex: 3;
+  color: #ECEFF1;
+  font-size: 2.5em;
+  padding-left: 5px;
+}
+
+#user{
+  display: flex;
+  justify-content: center;
+  flex: 3;
+  color: #ECEFF1;
+  font-size: 20px;
+  flex: 1;
+}
+
+.login{
+  display: flex;
+  justify-content: space-between;
+  color: #ECEFF1;
+  font-size: 3em;
+  padding-top: 5px;
+  cursor: pointer;
+}
+
+.fondo{
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  background-image: url('../../../assets/images/rick_and_morty-2-660x330.jpg');
+}
+
+#titulo{
+  display: flex;
+  justify-content: center;
+  font-size: 70px;
+  font-family: waca;
+  flex: 2;
+  color: lightskyblue;
+  cursor: pointer;
+  padding-left: 65px;
+}
+
+#heart{
+  color: red;
+  display: flex;
+  justify-content: center;
+  flex: 0.3;
+  padding-top: 5px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.icon_user{
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+}
+
+#logout{
+  display: flex;
+  justify-content: space-between;
+  color: #ECEFF1;
+  font-size: 3em;
+  padding-top: 5px;
+  cursor: pointer;
+  flex: 0.2;
+}
+
+.nav-link{
+  cursor: pointer;
+}

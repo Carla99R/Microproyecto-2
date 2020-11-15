@@ -1,0 +1,18 @@
+.fondo{
+  background-image:url('../../../assets/images/rick_and_morty-2-660x330.jpg');
+}
+.table{
+  margin-top: 50px;
+  height: calc(100vh - 115px);
+  width: 80%;
+  background-color: #ECEFF1;
+}
+
+.eliminar{
+  display: flex;
+  justify-content: space-between;
+}
+
+.material-icons{
+  cursor: pointer;
+}

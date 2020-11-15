@@ -1,0 +1,18 @@
+<nav  class="navbar fondo">
+
+  <div class="title">
+    <a id= "titulo" class="navbar-brand" (click)="inicio()">Rick & Morty</a>
+  </div>
+
+  <div class="icon_user" *ngIf="user">
+    <span id = "heart" class="material-icons" (click)="favs()">favorite</span>
+    <span id = "logout" class="material-icons " (click)="signOut()" >login</span><p id="user">{{user.displayName}}</p>
+  </div>
+
+  <div class="icon" *ngIf="!user">
+    <span class="material-icons login" (click)="login()">login</span><p>Login</p>
+  </div>
+
+</nav>
+
+

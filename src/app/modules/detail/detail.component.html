@@ -1,0 +1,35 @@
+<app-navigation-bar></app-navigation-bar>
+
+<div id = "fondo" class="carta">
+    <div class="card text-center">
+      <div class="card-header">
+        <ul class="nav nav-tabs card-header-tabs">
+          <li class="nav-item miniNav">
+            <a class="nav-link personaje" href="#">Personaje</a>
+          </li>
+          <li class="nav-item info">
+            <a class="nav-link active" >Info</a>
+          </li>
+          <li class="nav-item">
+            <span id="heart" class="material-icons">favorite_border</span>
+          </li>
+        </ul>
+      </div>
+      <div id = "bodyCart" class="card-body informacion">
+      <figure>
+        <img id="image" src="{{character.image}}">
+      </figure>
+        <div class="datos">
+          <h5 class="nombre">{{character.name}}</h5>
+          <p> <span class="secundario">Locación: </span> <span class="character">{{character.location.name}}</span></p>
+          <p> <span class="secundario">Especie: </span><span class="character">{{character.species}}</span></p>
+          <p><span class="secundario">Género: </span> <span class="character">{{character.gender}}</span></p>
+          <p><span class="secundario">Origen: </span><span class="character"> {{character.origin.name}}</span></p>
+          <p><span class="secundario">Fecha de creación: </span><span class="character"> {{character.created}}</span></p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
